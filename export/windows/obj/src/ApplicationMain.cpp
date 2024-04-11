@@ -177,8 +177,8 @@ HXLINE( 121)			::ApplicationMain_obj::start(stage);
             	HX_GC_STACKFRAME(&_hx_pos_6fcf922b66429816_31_create)
 HXLINE(  32)		 ::openfl::display::Application app =  ::openfl::display::Application_obj::__alloc( HX_CTX );
 HXLINE(  35)		::ManifestResources_obj::init(config);
-HXLINE(  38)		app->meta->set(HX_("build",2e,db,ea,ba),HX_("5",35,00,00,00));
-HXLINE(  39)		app->meta->set(HX_("company",3d,15,69,83),HX_("HaxeFlixel",42,8f,0c,ac));
+HXLINE(  38)		app->meta->set(HX_("build",2e,db,ea,ba),HX_("1",31,00,00,00));
+HXLINE(  39)		app->meta->set(HX_("company",3d,15,69,83),HX_("VMan_2002",bb,a6,6b,a2));
 HXLINE(  40)		app->meta->set(HX_("file",7c,ce,bb,43),HX_("AwayViewBug",e1,eb,69,7b));
 HXLINE(  41)		app->meta->set(HX_("name",4b,72,ff,48),HX_("AwayViewBug",e1,eb,69,7b));
 HXLINE(  42)		app->meta->set(HX_("packageName",f1,04,ad,04),HX_("com.example.myapp",84,30,57,c1));

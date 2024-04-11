@@ -3434,6 +3434,11 @@
    <depend name="include/flixel/graphics/frames/FlxFramesCollection.h"/>
    <depend name="include/flixel/graphics/frames/FlxImageFrame.h"/>
    <depend name="include/flixel/graphics/tile/FlxGraphicsShader.h"/>
+   <depend name="include/flixel/input/FlxBaseKeyList.h"/>
+   <depend name="include/flixel/input/FlxKeyManager.h"/>
+   <depend name="include/flixel/input/IFlxInputManager.h"/>
+   <depend name="include/flixel/input/keyboard/FlxKeyList.h"/>
+   <depend name="include/flixel/input/keyboard/FlxKeyboard.h"/>
    <depend name="include/flixel/math/FlxMatrix.h"/>
    <depend name="include/flixel/math/FlxPoint.h"/>
    <depend name="include/flixel/system/frontEnds/BitmapFrontEnd.h"/>
@@ -3441,6 +3446,7 @@
    <depend name="include/flixel/util/IFlxDestroyable.h"/>
    <depend name="include/flixel/util/IFlxPooled.h"/>
    <depend name="include/haxe/Log.h"/>
+   <depend name="include/haxe/io/Bytes.h"/>
    <depend name="include/lime/app/IModule.h"/>
    <depend name="include/object3d/VeView3D.h"/>
    <depend name="include/openfl/Lib.h"/>
@@ -3451,6 +3457,7 @@
    <depend name="include/openfl/display/IBitmapDrawable.h"/>
    <depend name="include/openfl/display/InteractiveObject.h"/>
    <depend name="include/openfl/display/MovieClip.h"/>
+   <depend name="include/openfl/display/PNGEncoderOptions.h"/>
    <depend name="include/openfl/display/Shader.h"/>
    <depend name="include/openfl/display/Sprite.h"/>
    <depend name="include/openfl/display/Stage.h"/>
@@ -3459,6 +3466,12 @@
    <depend name="include/openfl/events/IEventDispatcher.h"/>
    <depend name="include/openfl/geom/ColorTransform.h"/>
    <depend name="include/openfl/geom/Matrix.h"/>
+   <depend name="include/openfl/geom/Rectangle.h"/>
+   <depend name="include/openfl/utils/ByteArrayData.h"/>
+   <depend name="include/openfl/utils/IDataInput.h"/>
+   <depend name="include/openfl/utils/IDataOutput.h"/>
+   <depend name="include/openfl/utils/_ByteArray/ByteArray_Impl_.h"/>
+   <depend name="include/sys/io/File.h"/>
   </file>
   <file name="src/lime/utils/_UInt8ClampedArray/UInt8ClampedArray_Impl_.cpp" >
    <depend name="include/Std.h"/>

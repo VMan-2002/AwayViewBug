@@ -21,7 +21,6 @@ HX_DECLARE_CLASS2(openfl,display,DisplayObjectContainer)
 HX_DECLARE_CLASS2(openfl,display,IBitmapDrawable)
 HX_DECLARE_CLASS2(openfl,display,InteractiveObject)
 HX_DECLARE_CLASS2(openfl,display,Sprite)
-HX_DECLARE_CLASS2(openfl,events,Event)
 HX_DECLARE_CLASS2(openfl,events,EventDispatcher)
 HX_DECLARE_CLASS2(openfl,events,IEventDispatcher)
 
@@ -64,22 +63,32 @@ class HXCPP_CLASS_ATTRIBUTES VeView3D_obj : public  ::flixel::FlxSprite_obj
 
 		static void __boot();
 		static ::Array< ::Dynamic> viewSprites;
+		static bool canDoResize;
 		static bool initialized;
 		static Float renderScale;
 		static Float renderDescale;
-		static void resizeFunc( ::openfl::events::Event evt);
+		static void resizeFunc( ::Dynamic width, ::Dynamic height);
 		static ::Dynamic resizeFunc_dyn();
 
 		 ::openfl::display::BitmapData bmd;
+		::String graphicId;
+		Float pixelScale;
+		bool shouldResize;
+		Float myDescale;
 		 ::away3d::containers::View3D view3d;
 		void updateViewSize();
 		::Dynamic updateViewSize_dyn();
 
 		void destroy();
 
+		void update(Float elapsed);
+
 		void draw();
 
 		void drawComplex( ::flixel::FlxCamera camera);
+
+		Float set_pixelScale(Float value);
+		::Dynamic set_pixelScale_dyn();
 
 };
 
